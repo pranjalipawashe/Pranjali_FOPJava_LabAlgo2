@@ -18,13 +18,10 @@ public class Main {
 		
 		MergeSort sort = new MergeSort();
 		sort.mergeSort(arr, 0, arr.length-1);
-		/*
-		System.out.println("Sorted Array is :");
-        sort.display(arr);
-        */
+		
 		System.out.println("Enter the amount you want to pay");
 		int amount = sc.nextInt();
-        // main logic
+        
 		int[] count= new int[arr.length];
 		for(int i =0; i<arr.length; i++) {
 			if(amount == arr[i]) {
